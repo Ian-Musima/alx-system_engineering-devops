@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#Displays files in the current directory
+#Where only the part of the name after the first dash is displayed
+#e.g 1-test = test
+for i in *
+do
+	echo "$i" | cut -d '-' -f2
+done
