@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#Stops infinte loop
+pgrep -f 4-to_infinity_and_beyond | xargs kill -15
