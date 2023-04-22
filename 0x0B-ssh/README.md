@@ -1,1 +1,1 @@
-Tutorials on SSH
+Tutorial on SSH
