@@ -1,4 +1,5 @@
 # create the file school
+
 node default {
     file {'/tmp/school':
         path => '/tmp/school',
