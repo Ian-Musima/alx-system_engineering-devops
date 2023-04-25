@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#install nginx, redirect and customize 404 page
+# install nginx, redirect and customize 404 page
 sudo apt-get -y update
 sudo apt-get -y install nginx
 sudo chown -R "$USER":"$USER" /var/www/html
