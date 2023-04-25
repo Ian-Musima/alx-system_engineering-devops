@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#install nginx and redirect
+# install nginx and redirect
 sudo apt-get -y update
 sudo apt-get -y install nginx
 sudo chown -R "$USER":"$USER" /var/www/html
